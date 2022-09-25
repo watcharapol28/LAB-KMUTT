@@ -1,2 +1,1 @@
-# CSS341
- data science
+Data science with Jupyter notebook
