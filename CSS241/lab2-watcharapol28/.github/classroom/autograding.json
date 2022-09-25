@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "p1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest Prob1Newton_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "p2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest Prob2Secant_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
