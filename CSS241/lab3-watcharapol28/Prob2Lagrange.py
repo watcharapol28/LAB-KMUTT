@@ -8,7 +8,6 @@ def Lagrange(x, xi, yi):
     for i in range(len(yi)):
         n = 1
         dv = 1
-
         for j in range(len(xi)):
             if i != j:
                 n *= x - xi[j]
