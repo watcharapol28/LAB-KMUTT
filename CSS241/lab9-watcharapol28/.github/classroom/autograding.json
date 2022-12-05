@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "p1",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest Prob1_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "p2",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest Prob2_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
