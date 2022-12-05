@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "p1",
+      "setup": "sudo -H pip3 install pytest python-math",
+      "run": "pytest Prob1_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
