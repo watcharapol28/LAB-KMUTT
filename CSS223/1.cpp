@@ -80,6 +80,7 @@ int main()
         {   
             int nub = 0, mn = max(dp_min[i], dp_min[j]), mx = min(dp_max[i], dp_max[j]);
 
+            if(matrix[i][j]){continue;} //หากเป็นเพื่อนกันอยู่แล้วจะข้าม
             for(int k = mn; k < mx + 1; k++) // o(max - min) ~~ o(m)
             {
                 if(matrix[i][k] && matrix[j][k] && k<=n)
